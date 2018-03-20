@@ -34,8 +34,6 @@ public class Bilanganprima {
             if(Prima==true)
                 System.out.print(i+" ");
             
-            
-            
         }
     }
     
