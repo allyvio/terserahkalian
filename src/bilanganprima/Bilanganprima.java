@@ -24,7 +24,7 @@ public class Bilanganprima {
         input=vio.nextInt();
         for (int i=2; i<input; i++){
             boolean Prima = true;
-            
+             
             for (int j=2; j<i; j++){
                 if(i%j==0){
                     Prima= false;
@@ -33,6 +33,7 @@ public class Bilanganprima {
             }
             if(Prima==true)
                 System.out.print(i+" ");
+            
             
             
         }
